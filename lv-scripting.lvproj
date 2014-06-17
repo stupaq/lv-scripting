@@ -65,7 +65,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E06FAAFB-73CF-4649-9EC3-265B69D53C76}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">scripting.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/scripting/scripting.dll</Property>
@@ -80,7 +80,7 @@
 				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
 				<Property Name="Dll_headerGUID" Type="Str">{97A91493-1AB2-4813-951F-0B768161BF54}</Property>
 				<Property Name="Dll_libGUID" Type="Str">{CB3B0262-7757-4185-96AA-914AF541C343}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EBA8615B-5237-4E13-B895-F8C68C5D2D35}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FB5DE9F1-0E7B-4E57-A9C8-5A133BB641D0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
