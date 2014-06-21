@@ -34,6 +34,8 @@
 		</Item>
 		<Item Name="lv-scripting" Type="Folder">
 			<Item Name="CreateBlock.vi" Type="VI" URL="../CreateBlock.vi"/>
+			<Item Name="CreateVI.vi" Type="VI" URL="../CreateVI.vi"/>
+			<Item Name="StdCallTemplate.vit" Type="VI" URL="../StdCallTemplate.vit"/>
 		</Item>
 		<Item Name="misc" Type="Folder">
 			<Item Name="LV to text.vi" Type="VI" URL="../LV to text.vi"/>
@@ -118,7 +120,7 @@
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[3]VIProtoPassBy" Type="Int">1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfoCPTM" Type="Bin">%Q#!!!!!!!1!"!!!!!R!-0````]$:8*S!!Z!-0````]%='&amp;U;!!!6!$Q!!Q!!!!!!!!!!1!!!!!!!!!!!!!!!!!!!!)$!!"Y!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!AA!!!!!!1!$</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">4</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/lv-scripting/CreateBlock.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/lv-scripting/StdCallTemplate.vit</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
