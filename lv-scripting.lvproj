@@ -33,11 +33,15 @@
 			<Item Name="LV terminals.vi" Type="VI" URL="../LV terminals.vi"/>
 		</Item>
 		<Item Name="lv-scripting" Type="Folder">
-			<Item Name="CreateBlock.vi" Type="VI" URL="../CreateBlock.vi"/>
-			<Item Name="CreateVI.vi" Type="VI" URL="../CreateVI.vi"/>
-			<Item Name="GetReferenceByUID.vi" Type="VI" URL="../GetReferenceByUID.vi"/>
-			<Item Name="RemoveGObject.vi" Type="VI" URL="../RemoveGObject.vi"/>
+			<Item Name="helpers" Type="Folder">
+				<Item Name="GetReferenceByUID.vi" Type="VI" URL="../GetReferenceByUID.vi"/>
+			</Item>
+			<Item Name="ConnectWire.vi" Type="VI" URL="../ConnectWire.vi"/>
+			<Item Name="DeleteGObject.vi" Type="VI" URL="../DeleteGObject.vi"/>
+			<Item Name="InlineCNodeAddIO.vi" Type="VI" URL="../InlineCNodeAddIO.vi"/>
+			<Item Name="InlineCNodeCreate.vi" Type="VI" URL="../InlineCNodeCreate.vi"/>
 			<Item Name="StdCallTemplate.vit" Type="VI" URL="../StdCallTemplate.vit"/>
+			<Item Name="VICreate.vi" Type="VI" URL="../VICreate.vi"/>
 		</Item>
 		<Item Name="misc" Type="Folder">
 			<Item Name="LV to text.vi" Type="VI" URL="../LV to text.vi"/>
@@ -58,6 +62,7 @@
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 			</Item>
+			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="scripting" Type="DLL">
