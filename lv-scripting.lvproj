@@ -15,7 +15,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="creation" Type="Folder">
 			<Item Name="apply diff.vi" Type="VI" URL="../apply diff.vi"/>
-			<Item Name="create formula.vi" Type="VI" URL="../create formula.vi"/>
 			<Item Name="create_try.vi" Type="VI" URL="../create_try.vi"/>
 		</Item>
 		<Item Name="LV to txt" Type="Folder">
@@ -62,7 +61,6 @@
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 			</Item>
-			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="scripting" Type="DLL">
