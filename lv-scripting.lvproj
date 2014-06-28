@@ -35,6 +35,7 @@
 			<Item Name="helpers" Type="Folder">
 				<Item Name="GetReferenceByUID.vi" Type="VI" URL="../GetReferenceByUID.vi"/>
 			</Item>
+			<Item Name="CleanUpDiagram.vi" Type="VI" URL="../CleanUpDiagram.vi"/>
 			<Item Name="ConnectWire.vi" Type="VI" URL="../ConnectWire.vi"/>
 			<Item Name="DeleteGObject.vi" Type="VI" URL="../DeleteGObject.vi"/>
 			<Item Name="InlineCNodeAddIO.vi" Type="VI" URL="../InlineCNodeAddIO.vi"/>
