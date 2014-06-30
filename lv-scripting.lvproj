@@ -36,12 +36,12 @@
 				<Item Name="GetReferenceByUID.vi" Type="VI" URL="../GetReferenceByUID.vi"/>
 			</Item>
 			<Item Name="CleanUpDiagram.vi" Type="VI" URL="../CleanUpDiagram.vi"/>
-			<Item Name="ConnectWire.vi" Type="VI" URL="../ConnectWire.vi"/>
-			<Item Name="DeleteGObject.vi" Type="VI" URL="../DeleteGObject.vi"/>
-			<Item Name="FormulaNodeAddIO.vi" Type="VI" URL="../FormulaNodeAddIO.vi"/>
-			<Item Name="FormulaNodeCreate.vi" Type="VI" URL="../FormulaNodeCreate.vi"/>
+			<Item Name="FormulaAddIO.vi" Type="VI" URL="../FormulaAddIO.vi"/>
+			<Item Name="FormulaCreate.vi" Type="VI" URL="../FormulaCreate.vi"/>
+			<Item Name="GObjectDelete.vi" Type="VI" URL="../GObjectDelete.vi"/>
 			<Item Name="StdCallTemplate.vit" Type="VI" URL="../StdCallTemplate.vit"/>
 			<Item Name="VICreate.vi" Type="VI" URL="../VICreate.vi"/>
+			<Item Name="WireConnect.vi" Type="VI" URL="../WireConnect.vi"/>
 		</Item>
 		<Item Name="misc" Type="Folder">
 			<Item Name="LV to text.vi" Type="VI" URL="../LV to text.vi"/>
