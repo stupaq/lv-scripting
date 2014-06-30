@@ -38,8 +38,8 @@
 			<Item Name="CleanUpDiagram.vi" Type="VI" URL="../CleanUpDiagram.vi"/>
 			<Item Name="ConnectWire.vi" Type="VI" URL="../ConnectWire.vi"/>
 			<Item Name="DeleteGObject.vi" Type="VI" URL="../DeleteGObject.vi"/>
-			<Item Name="InlineCNodeAddIO.vi" Type="VI" URL="../InlineCNodeAddIO.vi"/>
-			<Item Name="InlineCNodeCreate.vi" Type="VI" URL="../InlineCNodeCreate.vi"/>
+			<Item Name="FormulaNodeAddIO.vi" Type="VI" URL="../FormulaNodeAddIO.vi"/>
+			<Item Name="FormulaNodeCreate.vi" Type="VI" URL="../FormulaNodeCreate.vi"/>
 			<Item Name="StdCallTemplate.vit" Type="VI" URL="../StdCallTemplate.vit"/>
 			<Item Name="VICreate.vi" Type="VI" URL="../VICreate.vi"/>
 		</Item>
