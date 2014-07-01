@@ -35,6 +35,7 @@
 			<Item Name="helpers" Type="Folder">
 				<Item Name="ControlStyleReference.vi" Type="VI" URL="../ControlStyleReference.vi"/>
 				<Item Name="GetReferenceByUID.vi" Type="VI" URL="../GetReferenceByUID.vi"/>
+				<Item Name="NewCustomVIOwnerByUID.vi" Type="VI" URL="../NewCustomVIOwnerByUID.vi"/>
 				<Item Name="NewVIObjectOwnerByUID.vi" Type="VI" URL="../NewVIObjectOwnerByUID.vi"/>
 			</Item>
 			<Item Name="CleanUpDiagram.vi" Type="VI" URL="../CleanUpDiagram.vi"/>
@@ -56,6 +57,7 @@
 			<Item Name="target_case.vi" Type="VI" URL="../target_case.vi"/>
 			<Item Name="target_formula.vi" Type="VI" URL="../target_formula.vi"/>
 		</Item>
+		<Item Name="SubVICreate.vi" Type="VI" URL="../SubVICreate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="ASC_ArrayOfUniqueIDStringParentIDStringName.ctl" Type="VI" URL="/&lt;vilib&gt;/_script/All Supported PropertiesOrMethods TypeDefs/ASC_ArrayOfUniqueIDStringParentIDStringName.ctl"/>
