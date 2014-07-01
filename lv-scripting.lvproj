@@ -33,6 +33,7 @@
 		</Item>
 		<Item Name="lv-scripting" Type="Folder">
 			<Item Name="helpers" Type="Folder">
+				<Item Name="ControlStyleReference.vi" Type="VI" URL="../ControlStyleReference.vi"/>
 				<Item Name="GetReferenceByUID.vi" Type="VI" URL="../GetReferenceByUID.vi"/>
 				<Item Name="NewVIObjectOwnerByUID.vi" Type="VI" URL="../NewVIObjectOwnerByUID.vi"/>
 			</Item>
