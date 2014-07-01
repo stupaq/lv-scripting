@@ -34,8 +34,10 @@
 		<Item Name="lv-scripting" Type="Folder">
 			<Item Name="helpers" Type="Folder">
 				<Item Name="GetReferenceByUID.vi" Type="VI" URL="../GetReferenceByUID.vi"/>
+				<Item Name="NewVIObjectOwnerByUID.vi" Type="VI" URL="../NewVIObjectOwnerByUID.vi"/>
 			</Item>
 			<Item Name="CleanUpDiagram.vi" Type="VI" URL="../CleanUpDiagram.vi"/>
+			<Item Name="ControlCreate.vi" Type="VI" URL="../ControlCreate.vi"/>
 			<Item Name="FormulaAddIO.vi" Type="VI" URL="../FormulaAddIO.vi"/>
 			<Item Name="FormulaCreate.vi" Type="VI" URL="../FormulaCreate.vi"/>
 			<Item Name="GObjectDelete.vi" Type="VI" URL="../GObjectDelete.vi"/>
