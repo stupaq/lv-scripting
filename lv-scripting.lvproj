@@ -44,6 +44,7 @@
 			<Item Name="FormulaCreate.vi" Type="VI" URL="../FormulaCreate.vi"/>
 			<Item Name="GObjectDelete.vi" Type="VI" URL="../GObjectDelete.vi"/>
 			<Item Name="StdCallTemplate.vit" Type="VI" URL="../StdCallTemplate.vit"/>
+			<Item Name="SubVICreate.vi" Type="VI" URL="../SubVICreate.vi"/>
 			<Item Name="VICreate.vi" Type="VI" URL="../VICreate.vi"/>
 			<Item Name="WireConnect.vi" Type="VI" URL="../WireConnect.vi"/>
 		</Item>
@@ -57,7 +58,6 @@
 			<Item Name="target_case.vi" Type="VI" URL="../target_case.vi"/>
 			<Item Name="target_formula.vi" Type="VI" URL="../target_formula.vi"/>
 		</Item>
-		<Item Name="SubVICreate.vi" Type="VI" URL="../SubVICreate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="ASC_ArrayOfUniqueIDStringParentIDStringName.ctl" Type="VI" URL="/&lt;vilib&gt;/_script/All Supported PropertiesOrMethods TypeDefs/ASC_ArrayOfUniqueIDStringParentIDStringName.ctl"/>
