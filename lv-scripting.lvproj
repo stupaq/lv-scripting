@@ -39,11 +39,13 @@
 				<Item Name="NewVIObjectOwnerByUID.vi" Type="VI" URL="../NewVIObjectOwnerByUID.vi"/>
 			</Item>
 			<Item Name="CleanUpDiagram.vi" Type="VI" URL="../CleanUpDiagram.vi"/>
+			<Item Name="CompoundArithmeticCreate.vi" Type="VI" URL="../CompoundArithmeticCreate.vi"/>
 			<Item Name="ControlArrayCreate.vi" Type="VI" URL="../ControlArrayCreate.vi"/>
 			<Item Name="ControlCreate.vi" Type="VI" URL="../ControlCreate.vi"/>
 			<Item Name="FormulaAddIO.vi" Type="VI" URL="../FormulaAddIO.vi"/>
 			<Item Name="FormulaCreate.vi" Type="VI" URL="../FormulaCreate.vi"/>
 			<Item Name="GObjectDelete.vi" Type="VI" URL="../GObjectDelete.vi"/>
+			<Item Name="RingConstantCreate.vi" Type="VI" URL="../RingConstantCreate.vi"/>
 			<Item Name="StdCallTemplate.vit" Type="VI" URL="../StdCallTemplate.vit"/>
 			<Item Name="SubVICreate.vi" Type="VI" URL="../SubVICreate.vi"/>
 			<Item Name="VICreate.vi" Type="VI" URL="../VICreate.vi"/>
@@ -68,7 +70,6 @@
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 			</Item>
-			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="scripting" Type="DLL">
