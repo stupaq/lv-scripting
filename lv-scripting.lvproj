@@ -41,6 +41,7 @@
 			<Item Name="CleanUpDiagram.vi" Type="VI" URL="../CleanUpDiagram.vi"/>
 			<Item Name="CompoundArithmeticCreate.vi" Type="VI" URL="../CompoundArithmeticCreate.vi"/>
 			<Item Name="ControlArrayCreate.vi" Type="VI" URL="../ControlArrayCreate.vi"/>
+			<Item Name="ControlClusterCreate.vi" Type="VI" URL="../ControlClusterCreate.vi"/>
 			<Item Name="ControlCreate.vi" Type="VI" URL="../ControlCreate.vi"/>
 			<Item Name="FormulaAddIO.vi" Type="VI" URL="../FormulaAddIO.vi"/>
 			<Item Name="FormulaCreate.vi" Type="VI" URL="../FormulaCreate.vi"/>
@@ -48,7 +49,6 @@
 			<Item Name="RingConstantCreate.vi" Type="VI" URL="../RingConstantCreate.vi"/>
 			<Item Name="StdCallTemplate.vit" Type="VI" URL="../StdCallTemplate.vit"/>
 			<Item Name="SubVICreate.vi" Type="VI" URL="../SubVICreate.vi"/>
-			<Item Name="VICreate.vi" Type="VI" URL="../VICreate.vi"/>
 			<Item Name="WireConnect.vi" Type="VI" URL="../WireConnect.vi"/>
 		</Item>
 		<Item Name="misc" Type="Folder">
