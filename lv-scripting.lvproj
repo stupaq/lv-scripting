@@ -33,6 +33,7 @@
 		</Item>
 		<Item Name="lv-scripting" Type="Folder">
 			<Item Name="helpers" Type="Folder">
+				<Item Name="AssignControlToTerminal.vi" Type="VI" URL="../AssignControlToTerminal.vi"/>
 				<Item Name="ControlStyleReference.vi" Type="VI" URL="../ControlStyleReference.vi"/>
 				<Item Name="GetReferenceByUID.vi" Type="VI" URL="../GetReferenceByUID.vi"/>
 				<Item Name="NewCustomVIOwnerByUID.vi" Type="VI" URL="../NewCustomVIOwnerByUID.vi"/>
@@ -66,6 +67,7 @@
 				<Item Name="ASC_ArrayOfUniqueIDStringParentIDStringName.ctl" Type="VI" URL="/&lt;vilib&gt;/_script/All Supported PropertiesOrMethods TypeDefs/ASC_ArrayOfUniqueIDStringParentIDStringName.ctl"/>
 				<Item Name="ASC_UniqueIDStringParentIDStringName.ctl" Type="VI" URL="/&lt;vilib&gt;/_script/All Supported PropertiesOrMethods TypeDefs/ASC_UniqueIDStringParentIDStringName.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
