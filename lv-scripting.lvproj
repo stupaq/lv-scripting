@@ -38,6 +38,7 @@
 				<Item Name="NewCustomVIOwnerByUID.vi" Type="VI" URL="../NewCustomVIOwnerByUID.vi"/>
 				<Item Name="NewVIObjectOwnerByUID.vi" Type="VI" URL="../NewVIObjectOwnerByUID.vi"/>
 			</Item>
+			<Item Name="BundlerCreate.vi" Type="VI" URL="../BundlerCreate.vi"/>
 			<Item Name="CleanUpDiagram.vi" Type="VI" URL="../CleanUpDiagram.vi"/>
 			<Item Name="CompoundArithmeticCreate.vi" Type="VI" URL="../CompoundArithmeticCreate.vi"/>
 			<Item Name="ControlArrayCreate.vi" Type="VI" URL="../ControlArrayCreate.vi"/>
