@@ -30,6 +30,7 @@
 		<Item Name="lv-scripting" Type="Folder">
 			<Item Name="helpers" Type="Folder">
 				<Item Name="ControlStyleReference.vi" Type="VI" URL="../ControlStyleReference.vi"/>
+				<Item Name="CreatePropertyGetters.vi" Type="VI" URL="../CreatePropertyGetters.vi"/>
 				<Item Name="GetReferenceByUID.vi" Type="VI" URL="../GetReferenceByUID.vi"/>
 				<Item Name="GetReferenceByUID_traverser.vi" Type="VI" URL="../GetReferenceByUID_traverser.vi"/>
 				<Item Name="NewCustomVIOwnerByUID.vi" Type="VI" URL="../NewCustomVIOwnerByUID.vi"/>
@@ -70,6 +71,7 @@
 			<Item Name="target.vi" Type="VI" URL="../target.vi"/>
 			<Item Name="target2.vi" Type="VI" URL="../target2.vi"/>
 			<Item Name="target_formula.vi" Type="VI" URL="../target_formula.vi"/>
+			<Item Name="target_getters.vi" Type="VI" URL="../target_getters.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
