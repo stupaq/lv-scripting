@@ -37,6 +37,7 @@
 				<Item Name="ReadSubVI.vi" Type="VI" URL="../ReadSubVI.vi"/>
 				<Item Name="ReadTerminal.vi" Type="VI" URL="../ReadTerminal.vi"/>
 				<Item Name="ReadUnbundler.vi" Type="VI" URL="../ReadUnbundler.vi"/>
+				<Item Name="ReadVIInternal.vi" Type="VI" URL="../ReadVIInternal.vi"/>
 				<Item Name="ReadWhileLoop.vi" Type="VI" URL="../ReadWhileLoop.vi"/>
 				<Item Name="ReadWire.vi" Type="VI" URL="../ReadWire.vi"/>
 			</Item>
@@ -76,7 +77,10 @@
 				<Item Name="LVBreakpointStatusEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBreakpointStatusEnum.ctl"/>
 				<Item Name="LVDataSocketStatusTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDataSocketStatusTypeDef.ctl"/>
 				<Item Name="LVKeyNavTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVKeyNavTypeDef.ctl"/>
+				<Item Name="LVKeyTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVKeyTypeDef.ctl"/>
+				<Item Name="LVMinMaxIncTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMinMaxIncTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVOutOfRangeActionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVOutOfRangeActionTypeDef.ctl"/>
 				<Item Name="LVParallelSchedulesEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVParallelSchedulesEnum.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
@@ -86,6 +90,7 @@
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 			</Item>
+			<Item Name="ReadNumeric.vi" Type="VI" URL="../ReadNumeric.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
