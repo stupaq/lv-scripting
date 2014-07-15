@@ -15,10 +15,12 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="reading" Type="Folder">
 			<Item Name="generators" Type="Folder">
+				<Item Name="GeneratedGetLabelText.vi" Type="VI" URL="../GeneratedGetLabelText.vi"/>
 				<Item Name="GeneratedGetOwnerUID.vi" Type="VI" URL="../GeneratedGetOwnerUID.vi"/>
+				<Item Name="GeneratedGetUID.vi" Type="VI" URL="../GeneratedGetUID.vi"/>
 				<Item Name="GeneratePropertyGetters.vi" Type="VI" URL="../GeneratePropertyGetters.vi"/>
 				<Item Name="GeneratePropertyGettersForType.vi" Type="VI" URL="../GeneratePropertyGettersForType.vi"/>
-				<Item Name="ParameterInfo.vi" Type="VI" URL="../ParameterInfo.vi"/>
+				<Item Name="ParameterInterceptorType.vi" Type="VI" URL="../ParameterInterceptorType.vi"/>
 			</Item>
 			<Item Name="helpers" Type="Folder">
 				<Item Name="ReadBundler.vi" Type="VI" URL="../ReadBundler.vi"/>
@@ -27,6 +29,7 @@
 				<Item Name="ReadControl.vi" Type="VI" URL="../ReadControl.vi"/>
 				<Item Name="ReadForLoop.vi" Type="VI" URL="../ReadForLoop.vi"/>
 				<Item Name="ReadFormula.vi" Type="VI" URL="../ReadFormula.vi"/>
+				<Item Name="ReadFormulaParameter.vi" Type="VI" URL="../ReadFormulaParameter.vi"/>
 				<Item Name="ReadInlineCNode.vi" Type="VI" URL="../ReadInlineCNode.vi"/>
 				<Item Name="ReadLeftShiftRegister.vi" Type="VI" URL="../ReadLeftShiftRegister.vi"/>
 				<Item Name="ReadRightShiftRegister.vi" Type="VI" URL="../ReadRightShiftRegister.vi"/>
@@ -83,7 +86,6 @@
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 			</Item>
-			<Item Name="GeneratedGetUID.vi" Type="VI" URL="../GeneratedGetUID.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
