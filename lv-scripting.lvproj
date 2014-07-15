@@ -15,9 +15,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="reading" Type="Folder">
 			<Item Name="generators" Type="Folder">
-				<Item Name="DeterminePropertyInterceptor.vi" Type="VI" URL="../DeterminePropertyInterceptor.vi"/>
+				<Item Name="GeneratedGetOwnerUID.vi" Type="VI" URL="../GeneratedGetOwnerUID.vi"/>
 				<Item Name="GeneratePropertyGetters.vi" Type="VI" URL="../GeneratePropertyGetters.vi"/>
 				<Item Name="GeneratePropertyGettersForType.vi" Type="VI" URL="../GeneratePropertyGettersForType.vi"/>
+				<Item Name="ParameterInfo.vi" Type="VI" URL="../ParameterInfo.vi"/>
 			</Item>
 			<Item Name="helpers" Type="Folder">
 				<Item Name="ReadBundler.vi" Type="VI" URL="../ReadBundler.vi"/>
@@ -57,8 +58,7 @@
 			<Item Name="FormulaCleanup.vi" Type="VI" URL="../FormulaCleanup.vi"/>
 			<Item Name="FormulaCreate.vi" Type="VI" URL="../FormulaCreate.vi"/>
 			<Item Name="GObjectDelete.vi" Type="VI" URL="../GObjectDelete.vi"/>
-			<Item Name="LoopAddShiftRegister.vi" Type="VI" URL="../LoopAddShiftRegister.vi"/>
-			<Item Name="LoopCreate.vi" Type="VI" URL="../LoopCreate.vi"/>
+			<Item Name="LooCreate.vi" Type="VI" URL="../LoopCreate.vi"/>
 			<Item Name="RingConstantCreate.vi" Type="VI" URL="../RingConstantCreate.vi"/>
 			<Item Name="StdCallTemplate.vit" Type="VI" URL="../StdCallTemplate.vit"/>
 			<Item Name="SubVICreate.vi" Type="VI" URL="../SubVICreate.vi"/>
@@ -71,6 +71,8 @@
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVBreakpointStatusEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBreakpointStatusEnum.ctl"/>
+				<Item Name="LVDataSocketStatusTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDataSocketStatusTypeDef.ctl"/>
+				<Item Name="LVKeyNavTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVKeyNavTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="LVParallelSchedulesEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVParallelSchedulesEnum.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
@@ -81,6 +83,7 @@
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 			</Item>
+			<Item Name="GeneratedGetUID.vi" Type="VI" URL="../GeneratedGetUID.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
