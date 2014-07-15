@@ -32,6 +32,7 @@
 				<Item Name="ReadFormulaParameter.vi" Type="VI" URL="../ReadFormulaParameter.vi"/>
 				<Item Name="ReadInlineCNode.vi" Type="VI" URL="../ReadInlineCNode.vi"/>
 				<Item Name="ReadLeftShiftRegister.vi" Type="VI" URL="../ReadLeftShiftRegister.vi"/>
+				<Item Name="ReadNumeric.vi" Type="VI" URL="../ReadNumeric.vi"/>
 				<Item Name="ReadRightShiftRegister.vi" Type="VI" URL="../ReadRightShiftRegister.vi"/>
 				<Item Name="ReadRingConstant.vi" Type="VI" URL="../ReadRingConstant.vi"/>
 				<Item Name="ReadSubVI.vi" Type="VI" URL="../ReadSubVI.vi"/>
@@ -90,7 +91,6 @@
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 			</Item>
-			<Item Name="ReadNumeric.vi" Type="VI" URL="../ReadNumeric.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
