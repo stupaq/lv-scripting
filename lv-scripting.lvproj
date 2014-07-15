@@ -13,24 +13,34 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LV to txt" Type="Folder">
-			<Item Name="obsol" Type="Folder">
-				<Item Name="lv class tree.vi" Type="VI" URL="../lv class tree.vi"/>
+		<Item Name="reading" Type="Folder">
+			<Item Name="generators" Type="Folder">
+				<Item Name="DeterminePropertyInterceptor.vi" Type="VI" URL="../DeterminePropertyInterceptor.vi"/>
+				<Item Name="GeneratePropertyGetters.vi" Type="VI" URL="../GeneratePropertyGetters.vi"/>
+				<Item Name="GeneratePropertyGettersForType.vi" Type="VI" URL="../GeneratePropertyGettersForType.vi"/>
 			</Item>
-			<Item Name="LV connector pane.vi" Type="VI" URL="../LV connector pane.vi"/>
-			<Item Name="LV diagram nodes.vi" Type="VI" URL="../LV diagram nodes.vi"/>
-			<Item Name="LV diagram objs.vi" Type="VI" URL="../LV diagram objs.vi"/>
-			<Item Name="LV diagram otherobjs.vi" Type="VI" URL="../LV diagram otherobjs.vi"/>
-			<Item Name="LV diagram subvis.vi" Type="VI" URL="../LV diagram subvis.vi"/>
-			<Item Name="LV diagram wires.vi" Type="VI" URL="../LV diagram wires.vi"/>
-			<Item Name="LV diagram.vi" Type="VI" URL="../LV diagram.vi"/>
-			<Item Name="LV front desct.vi" Type="VI" URL="../LV front desct.vi"/>
-			<Item Name="LV terminals.vi" Type="VI" URL="../LV terminals.vi"/>
+			<Item Name="helpers" Type="Folder">
+				<Item Name="ReadBundler.vi" Type="VI" URL="../ReadBundler.vi"/>
+				<Item Name="ReadCluster.vi" Type="VI" URL="../ReadCluster.vi"/>
+				<Item Name="ReadCompoundArithmetic.vi" Type="VI" URL="../ReadCompoundArithmetic.vi"/>
+				<Item Name="ReadControl.vi" Type="VI" URL="../ReadControl.vi"/>
+				<Item Name="ReadForLoop.vi" Type="VI" URL="../ReadForLoop.vi"/>
+				<Item Name="ReadFormula.vi" Type="VI" URL="../ReadFormula.vi"/>
+				<Item Name="ReadInlineCNode.vi" Type="VI" URL="../ReadInlineCNode.vi"/>
+				<Item Name="ReadLeftShiftRegister.vi" Type="VI" URL="../ReadLeftShiftRegister.vi"/>
+				<Item Name="ReadRightShiftRegister.vi" Type="VI" URL="../ReadRightShiftRegister.vi"/>
+				<Item Name="ReadRingConstant.vi" Type="VI" URL="../ReadRingConstant.vi"/>
+				<Item Name="ReadSubVI.vi" Type="VI" URL="../ReadSubVI.vi"/>
+				<Item Name="ReadTerminal.vi" Type="VI" URL="../ReadTerminal.vi"/>
+				<Item Name="ReadUnbundler.vi" Type="VI" URL="../ReadUnbundler.vi"/>
+				<Item Name="ReadWhileLoop.vi" Type="VI" URL="../ReadWhileLoop.vi"/>
+				<Item Name="ReadWire.vi" Type="VI" URL="../ReadWire.vi"/>
+			</Item>
+			<Item Name="ReadVI.vi" Type="VI" URL="../ReadVI.vi"/>
 		</Item>
-		<Item Name="lv-scripting" Type="Folder">
+		<Item Name="writing" Type="Folder">
 			<Item Name="helpers" Type="Folder">
 				<Item Name="ControlStyleReference.vi" Type="VI" URL="../ControlStyleReference.vi"/>
-				<Item Name="CreatePropertyGetters.vi" Type="VI" URL="../CreatePropertyGetters.vi"/>
 				<Item Name="GetReferenceByUID.vi" Type="VI" URL="../GetReferenceByUID.vi"/>
 				<Item Name="GetReferenceByUID_traverser.vi" Type="VI" URL="../GetReferenceByUID_traverser.vi"/>
 				<Item Name="NewCustomVIOwnerByUID.vi" Type="VI" URL="../NewCustomVIOwnerByUID.vi"/>
@@ -49,29 +59,28 @@
 			<Item Name="GObjectDelete.vi" Type="VI" URL="../GObjectDelete.vi"/>
 			<Item Name="LoopAddShiftRegister.vi" Type="VI" URL="../LoopAddShiftRegister.vi"/>
 			<Item Name="LoopCreate.vi" Type="VI" URL="../LoopCreate.vi"/>
-			<Item Name="ReadVI.vi" Type="VI" URL="../ReadVI.vi"/>
 			<Item Name="RingConstantCreate.vi" Type="VI" URL="../RingConstantCreate.vi"/>
 			<Item Name="StdCallTemplate.vit" Type="VI" URL="../StdCallTemplate.vit"/>
 			<Item Name="SubVICreate.vi" Type="VI" URL="../SubVICreate.vi"/>
+			<Item Name="VICreate.vi" Type="VI" URL="../VICreate.vi"/>
 			<Item Name="WireConnect.vi" Type="VI" URL="../WireConnect.vi"/>
-		</Item>
-		<Item Name="misc" Type="Folder">
-			<Item Name="LV to text.vi" Type="VI" URL="../LV to text.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="ASC_ArrayOfUniqueIDStringParentIDStringName.ctl" Type="VI" URL="/&lt;vilib&gt;/_script/All Supported PropertiesOrMethods TypeDefs/ASC_ArrayOfUniqueIDStringParentIDStringName.ctl"/>
-				<Item Name="ASC_UniqueIDStringParentIDStringName.ctl" Type="VI" URL="/&lt;vilib&gt;/_script/All Supported PropertiesOrMethods TypeDefs/ASC_UniqueIDStringParentIDStringName.ctl"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVBreakpointStatusEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBreakpointStatusEnum.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="LVParallelSchedulesEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVParallelSchedulesEnum.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="TRef TravTarget.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef TravTarget.ctl"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 			</Item>
-			<Item Name="target.vi" Type="VI" URL="../target.vi"/>
-			<Item Name="target2.vi" Type="VI" URL="../target2.vi"/>
-			<Item Name="target_formula.vi" Type="VI" URL="../target_formula.vi"/>
-			<Item Name="target_getters.vi" Type="VI" URL="../target_getters.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
