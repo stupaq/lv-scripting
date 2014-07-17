@@ -35,6 +35,7 @@
 				<Item Name="ReadInlineCNode.vi" Type="VI" URL="../ReadInlineCNode.vi"/>
 				<Item Name="ReadLeftShiftRegister.vi" Type="VI" URL="../ReadLeftShiftRegister.vi"/>
 				<Item Name="ReadNumeric.vi" Type="VI" URL="../ReadNumeric.vi"/>
+				<Item Name="ReadPanel.vi" Type="VI" URL="../ReadPanel.vi"/>
 				<Item Name="ReadRightShiftRegister.vi" Type="VI" URL="../ReadRightShiftRegister.vi"/>
 				<Item Name="ReadRingConstant.vi" Type="VI" URL="../ReadRingConstant.vi"/>
 				<Item Name="ReadSubVI.vi" Type="VI" URL="../ReadSubVI.vi"/>
