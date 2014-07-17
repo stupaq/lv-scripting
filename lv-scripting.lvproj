@@ -28,6 +28,7 @@
 				<Item Name="ReadCluster.vi" Type="VI" URL="../ReadCluster.vi"/>
 				<Item Name="ReadCompoundArithmetic.vi" Type="VI" URL="../ReadCompoundArithmetic.vi"/>
 				<Item Name="ReadControl.vi" Type="VI" URL="../ReadControl.vi"/>
+				<Item Name="ReadDiagram.vi" Type="VI" URL="../ReadDiagram.vi"/>
 				<Item Name="ReadForLoop.vi" Type="VI" URL="../ReadForLoop.vi"/>
 				<Item Name="ReadFormula.vi" Type="VI" URL="../ReadFormula.vi"/>
 				<Item Name="ReadFormulaParameter.vi" Type="VI" URL="../ReadFormulaParameter.vi"/>
@@ -74,7 +75,6 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVBreakpointStatusEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBreakpointStatusEnum.ctl"/>
 				<Item Name="LVDataSocketStatusTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDataSocketStatusTypeDef.ctl"/>
