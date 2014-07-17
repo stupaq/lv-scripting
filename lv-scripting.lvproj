@@ -15,12 +15,12 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="reading" Type="Folder">
 			<Item Name="generators" Type="Folder">
-				<Item Name="GeneratedGetLabelText.vi" Type="VI" URL="../GeneratedGetLabelText.vi"/>
-				<Item Name="GeneratedGetOwnerUID.vi" Type="VI" URL="../GeneratedGetOwnerUID.vi"/>
-				<Item Name="GeneratedGetUID.vi" Type="VI" URL="../GeneratedGetUID.vi"/>
 				<Item Name="GeneratePropertyGetters.vi" Type="VI" URL="../GeneratePropertyGetters.vi"/>
 				<Item Name="GeneratePropertyGettersForType.vi" Type="VI" URL="../GeneratePropertyGettersForType.vi"/>
-				<Item Name="ParameterInterceptorType.vi" Type="VI" URL="../ParameterInterceptorType.vi"/>
+				<Item Name="HelperLabelText.vi" Type="VI" URL="../HelperLabelText.vi"/>
+				<Item Name="HelperOwnerUID.vi" Type="VI" URL="../HelperOwnerUID.vi"/>
+				<Item Name="HelperRefUID.vi" Type="VI" URL="../HelperRefUID.vi"/>
+				<Item Name="ParameterInterceptorInfo.vi" Type="VI" URL="../ParameterInterceptorInfo.vi"/>
 			</Item>
 			<Item Name="helpers" Type="Folder">
 				<Item Name="ReadBundler.vi" Type="VI" URL="../ReadBundler.vi"/>
@@ -73,7 +73,6 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVBreakpointStatusEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBreakpointStatusEnum.ctl"/>
