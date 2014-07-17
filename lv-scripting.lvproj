@@ -63,7 +63,8 @@
 			<Item Name="FormulaCleanup.vi" Type="VI" URL="../FormulaCleanup.vi"/>
 			<Item Name="FormulaCreate.vi" Type="VI" URL="../FormulaCreate.vi"/>
 			<Item Name="GObjectDelete.vi" Type="VI" URL="../GObjectDelete.vi"/>
-			<Item Name="LooCreate.vi" Type="VI" URL="../LoopCreate.vi"/>
+			<Item Name="LoopAddShiftRegister.vi" Type="VI" URL="../LoopAddShiftRegister.vi"/>
+			<Item Name="LoopCreate.vi" Type="VI" URL="../LoopCreate.vi"/>
 			<Item Name="RingConstantCreate.vi" Type="VI" URL="../RingConstantCreate.vi"/>
 			<Item Name="StdCallTemplate.vit" Type="VI" URL="../StdCallTemplate.vit"/>
 			<Item Name="SubVICreate.vi" Type="VI" URL="../SubVICreate.vi"/>
