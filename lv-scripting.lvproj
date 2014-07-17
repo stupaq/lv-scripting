@@ -23,6 +23,7 @@
 				<Item Name="ParameterInterceptorInfo.vi" Type="VI" URL="../ParameterInterceptorInfo.vi"/>
 			</Item>
 			<Item Name="helpers" Type="Folder">
+				<Item Name="ReadArray.vi" Type="VI" URL="../ReadArray.vi"/>
 				<Item Name="ReadBundler.vi" Type="VI" URL="../ReadBundler.vi"/>
 				<Item Name="ReadCluster.vi" Type="VI" URL="../ReadCluster.vi"/>
 				<Item Name="ReadCompoundArithmetic.vi" Type="VI" URL="../ReadCompoundArithmetic.vi"/>
