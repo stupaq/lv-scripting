@@ -40,6 +40,7 @@
 				<Item Name="ReadRingConstant.vi" Type="VI" URL="../ReadRingConstant.vi"/>
 				<Item Name="ReadSubVI.vi" Type="VI" URL="../ReadSubVI.vi"/>
 				<Item Name="ReadTerminal.vi" Type="VI" URL="../ReadTerminal.vi"/>
+				<Item Name="ReadTunnel.vi" Type="VI" URL="../ReadTunnel.vi"/>
 				<Item Name="ReadUnbundler.vi" Type="VI" URL="../ReadUnbundler.vi"/>
 				<Item Name="ReadVIInternal.vi" Type="VI" URL="../ReadVIInternal.vi"/>
 				<Item Name="ReadWhileLoop.vi" Type="VI" URL="../ReadWhileLoop.vi"/>
