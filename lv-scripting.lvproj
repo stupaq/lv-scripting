@@ -13,6 +13,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="miscellanea" Type="Folder">
+			<Item Name="HighlightByUID.vi" Type="VI" URL="../HighlightByUID.vi"/>
+		</Item>
 		<Item Name="reading" Type="Folder">
 			<Item Name="generators" Type="Folder">
 				<Item Name="GeneratePropertyGetters.vi" Type="VI" URL="../GeneratePropertyGetters.vi"/>
